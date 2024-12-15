@@ -1,0 +1,96 @@
+/* Retro Coding Roadmap Styles */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background: url('software-development-web-coding-laptop-programming-concept-website-design-coding-remote-work-home_3482-5615.avif') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    padding: 20px;
+}
+
+/* Title */
+.title {
+    font-size: 4rem;
+    color: #00ffea;
+    text-shadow: 3px 3px 0px #ff0080, 6px 6px 0px #000000;
+    margin-bottom: 10px;
+    animation: glow 2s infinite alternate;
+}
+
+/* Paragraph */
+.paragraph {
+    font-size: 1.5rem;
+    color: #f3f3f3;
+    margin: 10px 0;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Language Buttons */
+.language-button {
+    background-color: #000000;
+    color: #00ffea;
+    border: 2px solid #00ffea;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px #00ffea, 0 0 15px #00ffea;
+}
+
+.language-button:hover {
+    background-color: #00ffea;
+    color: #000000;
+    border: 2px solid #ff0080;
+    box-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080;
+    transform: scale(1.1);
+}
+
+/* Keyframe Animations */
+@keyframes glow {
+    0% {
+        text-shadow: 3px 3px 10px #00ffea, 6px 6px 15px #ff0080;
+    }
+    100% {
+        text-shadow: 5px 5px 20px #ff0080, 10px 10px 30px #00ffea;
+    }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ffea;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}

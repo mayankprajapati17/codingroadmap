@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Coding Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Title -->
+        <h1 class="title">CODING ROADMAP</h1>
+        
+        <!-- Intro Paragraphs -->
+        <p class="paragraph">Master Your Concepts Like Never Before</p>
+        <p class="paragraph">Learn, practice, and excel with our AI-powered learning companion</p>
+        
+        <!-- Language Buttons -->
+        <div class="button-container">
+            <button class="language-button" onclick="window.location.href='roadmap/c.html'">C</button>
+            <button class="language-button" onclick="goToRoadmap('pascal')">Pascal</button>
+            <button class="language-button" onclick="goToRoadmap('basic')">BASIC</button>
+            <button class="language-button" onclick="goToRoadmap('fortran')">Fortran</button>
+            <button class="language-button" onclick="goToRoadmap('cobol')">COBOL</button>
+            <button class="language-button" onclick="goToRoadmap('lisp')">Lisp</button>
+            <button class="language-button" onclick="goToRoadmap('cpp')">C++</button>
+            <button class="language-button" onclick="window.location.href='roadmap/java.html'">Java</button>
+            <button class="language-button" onclick="goToRoadmap('vb')">Visual Basic</button>
+            <button class="language-button" onclick="goToRoadmap('perl')">Perl</button>
+            <button class="language-button" onclick="goToRoadmap('html')">HTML</button>
+            <button class="language-button" onclick="window.location.href='roadmap/python.html'">Python</button>
+            <button class="language-button" onclick="goToRoadmap('php')">PHP</button>
+            <button class="language-button" onclick="window.location.href='roadmap/js.html'">JavaScript</button>
+            <button class="language-button" onclick="goToRoadmap('sql')">SQL</button>
+            <button class="language-button" onclick="goToRoadmap('delphi')">Delphi</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function goToRoadmap(language) {
+            // Redirect to a specific roadmap page or section
+            window.location.href = `roadmap.html#${language}`;
+        }
+    </script>
+</body>
+</html>
