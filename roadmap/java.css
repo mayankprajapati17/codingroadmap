@@ -1,0 +1,80 @@
+body {
+    background: url('pixel-art-of-80s-retro-sci-fi-background-herbert.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #00FF41; /* Neon green */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #FFD700; /* Retro gold */
+    box-shadow: 0px 0px 20px #FFD700;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+h1 {
+    color: #FFD700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px #FFD700;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.progress-container {
+    background-color: #333;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background-color: #FF00FF; /* Neon pink */
+    transition: width 0.5s ease-in-out;
+}
+/* General Button Styles */
+button {
+    background-color: #FF00FF; /* Neon pink */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FFD700;
+    color: #000;
+    transform: scale(1.1);
+}
+
+/* Specific Style for Back to Main Button */
+#backButton {
+    background-color: #00FF41; /* Neon blue */
+    color: #FFFFFF;
+    border: 2px solid #FFD700; /* Retro gold border */
+    font-weight: bold;
+}
+
+#backButton:hover {
+    background-color: #FFD700; /* Retro gold */
+    color: #000;
+    transform: scale(1.2); /* Slightly larger hover effect */
+}
+
+

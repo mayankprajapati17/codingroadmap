@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Language Roadmap</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">C Language Roadmap</h1>
+        <p>Use: System software, OS (Unix), embedded systems.</p>
+        <p>Roadmap: Learn basic syntax, memory management (pointers, structs), and system-level programming.</p>
+
+        <!-- Progression Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <!-- Buttons to Simulate Progression -->
+        <div class="buttons">
+            <button onclick="updateProgress(20)">Syntax Basics</button>
+            <button onclick="updateProgress(40)">Pointers</button>
+            <button onclick="updateProgress(60)">Structs</button>
+            <button onclick="updateProgress(80)">Memory Management</button>
+            <button onclick="updateProgress(100)">System-Level Programming</button>
+        </div>
+
+        <!-- Back Button -->
+        <button id="backButton">Back to Main</button>
+    </div>
+    <script src="c.js"></script>
+</body>
+</html>
